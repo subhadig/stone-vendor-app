@@ -12,7 +12,7 @@ module.exports = function(element, state) {
 
   this.render = ()=> {
     ReactDom.render(<AppRoot
-                      name = {state}
+                      config = {state.config}
                     />, element);
   };
 };

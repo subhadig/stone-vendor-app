@@ -1,7 +1,8 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	color: #313030;
+	color: rgb(255, 255, 255);
+	text-align: center;
 	background-color: #027fcf;
 	background-image: url(../images/background.jpg);
 	background-repeat: repeat-x;
@@ -11,4 +12,43 @@ body {
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	padding: 0px;
 	margin: 0px;
+}
+.main-out {
+	/*background-image: url(../images/trans.png);
+	background-repeat: repeat-y;
+	background-position: center top;*/
+	width: 100%;
+	float: left;
+}
+.main {
+	width: 1000px;
+	margin: 0px auto;
+}
+.page {
+	width: 1000px;
+	float: left;
+	padding: 42px 0px 0px 0px;
+}
+.top {
+	background-color: #f6f7f7;
+	width: 980px;
+	float: left;
+	padding: 0px 10px 10px 10px;
+}
+.header-img {
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 980px;
+	height: 213px;
+	float: left;
+	text-align: right;
+}
+.header-img h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 211px;
+	color: #FFFFFF;
+	margin-left: 98px;
 }
