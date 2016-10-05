@@ -9,6 +9,8 @@ app.use('/styles', express.static(path.resolve(__dirname, '../client/styles')));
 
 app.use('/images', express.static(path.resolve(__dirname, '../client/images')));
 
+app.use('/images/slideshow', express.static(path.resolve(__dirname, '../client/images/slideshow')));
+
 app.get('/', (request, response)=> {
   response.sendFile(path.resolve(__dirname, '../client/index.html'));
 });

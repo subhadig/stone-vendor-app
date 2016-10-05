@@ -1,5 +1,6 @@
 var React = require('react');
 var HeaderImage = require('./HeaderImage');
+var Slideshow = require('./Slideshow');
 
 module.exports = React.createClass({
   propTypes: {
@@ -11,6 +12,9 @@ module.exports = React.createClass({
     return <div className="page">
             <div className="top">
               <HeaderImage headerSlogan = {this.props.pageConfig.headerSlogan}/>
+              <div className="slideshow-outer">
+                <Slideshow config={this.props.pageConfig.slideshowConfig}/>
+              </div>
             </div>
           </div>
   }

@@ -7,7 +7,6 @@
     "test": "echo No testcase found && exit 1",
     "start": "node src/server/index.js",
     "postinstall": "webpack --config config/webpack.config.js"
-
   },
   "repository": {
     "type": "git",
@@ -30,6 +29,7 @@
   "dependencies": {
     "express": "^4.14.0",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-image-gallery": "^0.7.2"
   }
 }
