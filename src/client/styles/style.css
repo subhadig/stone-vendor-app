@@ -25,10 +25,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 	width: 1000px;
 	margin: 0px auto;
 }
+.page-outer {
+	padding: 42px 0px 0px 0px;
+}
 .page {
 	width: 1000px;
 	float: left;
-	padding: 42px 0px 0px 0px;
+	padding: 0px 2px 2px 2px;
+	background: black;
 }
 .top {
 	background-color: #f6f7f7;
@@ -75,14 +79,17 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 }
 .header-img h2 {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 36px;
+	font-size: 26px;
 	font-weight: normal;
 	line-height: 211px;
 	color: #FFFFFF;
-	margin-left: 98px;
+	margin-right: 81px;
 }
 .slideshow-outer {
-	max-width:500px;
-	float: right;
-	padding: 20px 0px 10px 10px;
+	max-width: 500px;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	background-color: #d6d6d6;
+	margin: 20px 0px 10px 0px;
+	box-shadow: 10px 10px 5px #888888;
 }

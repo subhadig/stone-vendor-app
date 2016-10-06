@@ -5,7 +5,7 @@ var attachElement = document.getElementById('app');
 var state = {
   config: {
     pageConfig: {
-      headerSlogan: "Naseer Stone Traders",
+      headerSlogan: "Quality stones at best prices",
       slideshowConfig: [
         {
           original: 'http://localhost:3000/images/slideshow/image_1.jpg',
@@ -59,7 +59,12 @@ var state = {
           original: 'http://localhost:3000/images/slideshow/image_11.jpg',
           thumbnail: 'http://localhost:3000/images/slideshow/image_11.jpg',
         }
-      ]
+      ],
+      headerTopConfig: {
+        firstName: 'Naseer',
+        lastName: 'Stone Traders',
+        phoneNo: '9177 417 749'
+      }
     },
     name: "Subhadip"
   }
